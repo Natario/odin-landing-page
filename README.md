@@ -1,0 +1,1 @@
+Another exercise for The Odin Project, this time it's this https://www.theodinproject.com/lessons/foundations-landing-page

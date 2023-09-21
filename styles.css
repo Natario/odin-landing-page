@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    font-family: roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+body div {
+    width: 70%;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.header, .footer, .content {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header {
+    flex: 1 1 300px;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-top: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.nav p {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li {
+    padding: 10px;
+}
+
+.hero {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    max-width: 500px;
+}
+
+.hero-text > * {
+    margin-bottom: 10px;
+}
+
+.hero-text h1 {
+    font-size:48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.hero-text button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.quote {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px;
+    padding-bottom:30px;    
+}
+
+.quote-text {
+    font-size: 36px;
+
+}
+
+.banner {
+    margin: 100px auto;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    flex: 1;
+    padding-top:30px;
+    padding-bottom:30px;
+    color: #f9faf8;
+    text-align: center;
+}
