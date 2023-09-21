@@ -96,9 +96,23 @@ body div {
     gap: 50px;
 }
 
+.content h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
 .cards {
     display: flex;
     justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .card img {
@@ -108,8 +122,13 @@ body div {
     height: 150px;
 }
 
+.card p {
+    width: 150px;
+    text-align: center;
+}
+
 .quote {
-    background-color: #f9faf8;
+    background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,7 +145,7 @@ body div {
 .banner {
     margin: 100px auto;
     background-color: #3882f6;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #f9faf8;
     padding: 50px 100px;
     display: flex;
@@ -136,6 +155,16 @@ body div {
 .banner-text {
     display: flex;
     flex-direction: column;
+}
+
+.banner button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    padding: 5px 30px;
 }
 
 .footer {
